@@ -7,6 +7,9 @@ import (
 	"strings"
 )
 
+const PROMPT_INPUT = "prompt-input"
+const INPUT = "input"
+
 func NumberRuneToInt(r rune) int {
 	return int('0' - r)
 }
